@@ -1,5 +1,5 @@
 # webaudio-tinysynth
-WebAudio Tiny GM mapped Synthesizer [Polymer/JavaScript]
+WebAudio Tiny GM mapped Synthesizer [Polymer/JavaScript], with all credits to / via g200kg. 
 
 ## Overview
 
@@ -35,16 +35,16 @@ Lower red indicator shows MIDI ch.
 
 ## Live Demo
 Test Pages are here :  
- [soundedit.html](https://g200kg.github.io/webaudio-tinysynth/soundedit.html)  (Polymer version playable demo with MIDI keyboard via WebMIDI API)  
- [simple.html](https://g200kg.github.io/webaudio-tinysynth/simple.html)  (Most simple sample of Polymer version)  
- [jstest.html](https://g200kg.github.io/webaudio-tinysynth/jstest.html)   (JavaScript version)
+ [soundedit.html](https://essingen123.github.io/webaudio-tinysynth/soundedit.html)  (Polymer version playable demo with MIDI keyboard via WebMIDI API)  
+ [simple.html](https://essingen123.github.io/webaudio-tinysynth/simple.html)  (Most simple sample of Polymer version)  
+ [jstest.html](https://essingen123.github.io/webaudio-tinysynth/jstest.html)   (JavaScript version)
 
 ## Usage
 
 ### JavaScript Library Version
 * Necessary file is a `webaudio-tinysynth.js` only. Deploy webaudio-tinysynth.js appropriately and load  library by `<script src='webaudio-tinysynth.js'></script>`.  
  Or if you want to use the file on this repository directly as a CDN, use following.  
- `<script src='https://g200kg.github.io/webaudio-tinysynth/webaudio-tinysynth.js'></script>`
+ `<script src='https://essingen123.github.io/webaudio-tinysynth/webaudio-tinysynth.js'></script>`
 
 * To make the instance of synthesizer, use command `var synth = new WebAudioTinySynth();`.  Some options are acceptable. For example :
   * `synth = new WebAudioTinySynth({quality:0, useReverb:0});`
